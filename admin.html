@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel</title>
+<link rel="stylesheet" href="./assets/css/admin.css">
+</head>
+<body>
+
+    <div class="admin-panel">
+        <h2><a style="color: white;" href="index.html">Ana Səhifə</a></h2>
+        <form id="houseForm">
+            <label for="houseTitle">EV Başlığı:</label>
+            <input type="text" id="houseTitle" name="houseTitle" required>
+    
+            <label for="houseDescription">Təsvir:</label>
+            <textarea id="houseDescription" name="houseDescription" required></textarea>
+    
+            <label for="housePrice">Qiymət:</label>
+            <input type="number" id="housePrice" name="housePrice" required>
+    
+            <label for="houseLocation">Lokasiya:</label>
+            <input type="text" id="houseLocation" name="houseLocation" required>
+    
+            <label for="numRooms">Otaqların sayı:</label>
+            <input type="number" id="numRooms" name="numRooms" required>
+    
+            <label for="numBathrooms">Hamam Tualet sayı:</label>
+            <input type="number" id="numBathrooms" name="numBathrooms" required>
+    
+            <label for="houseSize">Kvadrat metr:</label>
+            <input type="number" id="houseSize" name="houseSize" required>
+    
+            <button type="submit">BAS</button>
+        </form>
+    
+    </div>
+    
+<script src="./assets/js/admin.js"></script>
+</body>
+</html>
